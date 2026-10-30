@@ -27,7 +27,7 @@ def theta(t, theta_i):
   return 2 * t + theta_i
 
 def x_t(t, x_i, theta_i):
-  return (v/omega) * (np.sin(2 * t + theta_i) - np.sin(theta_i)) 
+  return (v/omega) * (np.sin(2 * t + theta_i) - np.sin(theta_i)) + x_i
 
 def y_t(t, y_i, theta_i):
   return (-v/omega) * (np.cos(2 * t + theta_i) - np.cos(theta_i)) + y_i 
