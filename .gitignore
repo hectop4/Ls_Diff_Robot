@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Manim output
+media/
+
+# Generated Overleaf bundle and local preview
+gps_overleaf.zip
+gps_slide_preview.pdf
